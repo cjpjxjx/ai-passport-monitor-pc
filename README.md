@@ -1,6 +1,6 @@
 # ai-passport-monitor-pc
 
-把本地视频文件或 Windows 桌面画面转码后推送到 AI Passport 显示器应用（固件仓库 `ai-passport`，分支 `feature/monitor`）。
+把本地视频文件或 Windows 桌面画面转码后推送到 AI Passport 显示器应用（固件仓库 `ai-passport-monitor`）。
 
 代码取自参考项目 `ai-passport-tv-server`（提交 `3e1c539`），转码、条带压缩与降质逻辑保留；发送节奏重写为按到达顺序发送，没有预缓冲与内容时间轴。与参考的差别：
 
